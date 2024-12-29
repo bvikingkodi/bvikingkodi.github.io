@@ -45,7 +45,7 @@ def zip_addon_folder():
     # Update the index.html file in the packages folder
     index_file_path = os.path.join(output_dir, 'index.html')
     with open(index_file_path, 'w', encoding='utf-8') as index_file:
-        index_file.write(f'<!DOCTYPE html>\n<a href="{os.path.basename(zip_name)}">{os.path.basename(zip_name)}</a>')
+        index_file.write(f'<!DOCTYPE html>\n<a href="{os.path.basename(zip_name)}">{os.path.basename(zip_name)}</a>\n')
 
     # Update the fen_light_changes file
     changelog_path = os.path.join(folder_path, 'resources', 'text', 'changelog.txt')
@@ -63,7 +63,7 @@ def zip_addon_folder():
     # Update the index.html file in the script's folder
     script_index_file_path = os.path.join(os.getcwd(), 'index.html')
     with open(script_index_file_path, 'w', encoding='utf-8') as script_index_file:
-        script_index_file.write(f'<!DOCTYPE html>\n<a href="packages/{os.path.basename(zip_name)}">{os.path.basename(zip_name)}</a>')
+        script_index_file.write(f'<!DOCTYPE html>\n<a href="packages/{os.path.basename(zip_name)}">{os.path.basename(zip_name)}</a>\n')
 
 if __name__ == "__main__":
     zip_addon_folder()
