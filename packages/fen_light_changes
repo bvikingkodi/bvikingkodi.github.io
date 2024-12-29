@@ -1,3 +1,5 @@
-[COLOR dodgerblue][B]Version 2.0.081[/B][/COLOR]
-- Duplicate processing now handles empty size
-- Fixed blurred categorisation
+[COLOR dodgerblue][B]Version 2.0.082[/B][/COLOR]
+- Added back version rollback
+- Chapter info for next episode now requires chapter end greater than or equal to 4 seconds before episode ends
+- Will now default update username/location to use bvikingkodi
+- If update username/location is Tikipeter will automatically change to bvikingkodi on startup

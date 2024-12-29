@@ -69,6 +69,16 @@ def get_latest_zip_from_version_file(version_file_name, addon_name):
             return os.path.join(os.getcwd(), 'packages', f'{addon_name}-{version_number}.zip')
     return None
 
+def extract_latest_changes(changelog_path):
+    with open(changelog_path, 'r', encoding='utf-8') as changelog_file:
+        lines = changelog_file.readlines()
+        latest_changes = []
+        for line in lines:
+            if line.strip() == '':
+                break
+            latest_changes.append(line.strip())
+        return '\n'.join(latest_changes)
+
 def main():
     latest_fenlight_zip = None
     latest_fen_zip = None
@@ -77,6 +87,14 @@ def main():
     fenlight_folder_path = os.path.join(os.environ['APPDATA'], 'Kodi', 'addons', 'plugin.video.fenlight')
     if os.path.exists(fenlight_folder_path):
         latest_fenlight_zip = zip_addon_folder('plugin.video.fenlight', 'fen_light_version')
+        
+        # Extract the latest changes from changelog.txt
+        changelog_path = os.path.join(fenlight_folder_path, 'resources', 'text', 'changelog.txt')
+        if os.path.exists(changelog_path):
+            latest_changes = extract_latest_changes(changelog_path)
+            changes_file_path = os.path.join(os.getcwd(), 'packages', 'fen_light_changes')
+            with open(changes_file_path, 'w', encoding='utf-8') as changes_file:
+                changes_file.write(latest_changes)
     else:
         latest_fenlight_zip = get_latest_zip_from_version_file('fen_light_version', 'plugin.video.fenlight')
 
