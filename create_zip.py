@@ -32,7 +32,7 @@ def zip_addon_folder():
 
             for file in files:
                 file_path = os.path.join(root, file)
-                arcname = os.path.relpath(file_path, folder_path)
+                arcname = os.path.join('plugin.video.fenlight', os.path.relpath(file_path, folder_path))
                 zipf.write(file_path, arcname)
 
     print(f"Zip file created: {zip_name}")
