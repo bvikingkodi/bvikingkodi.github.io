@@ -1,3 +1,2 @@
-[COLOR dodgerblue][B]Version 2.0.09[/B][/COLOR]
-- Improved handling of real debrid erroring torrents
-- Added proper Trakt scrobbling
+[COLOR dodgerblue][B]Version 2.0.091[/B][/COLOR]
+- Fixed Trakt scrobbling not registering pause
