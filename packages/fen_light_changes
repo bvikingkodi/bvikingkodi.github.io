@@ -1,5 +1,3 @@
-[COLOR dodgerblue][B]Version 2.0.082[/B][/COLOR]
-- Added back version rollback
-- Chapter info for next episode now requires chapter end greater than or equal to 4 seconds before episode ends
-- Will now default update username/location to use bvikingkodi
-- If update username/location is Tikipeter will automatically change to bvikingkodi on startup
+[COLOR dodgerblue][B]Version 2.0.09[/B][/COLOR]
+- Improved handling of real debrid erroring torrents
+- Added proper Trakt scrobbling
