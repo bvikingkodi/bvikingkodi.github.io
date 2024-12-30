@@ -1,2 +1,3 @@
-[COLOR dodgerblue][B]Version 2.0.091[/B][/COLOR]
-- Fixed Trakt scrobbling not registering pause
+[COLOR dodgerblue][B]Version 2.0.092[/B][/COLOR]
+- Fixed Trakt scrobbling when paused and seeking
+- More accurating storing/setting of playback percentage

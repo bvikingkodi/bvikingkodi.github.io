@@ -26,9 +26,11 @@ def zip_addon_folder(addon_name, version_file_name):
     # Create the zip file
     with zipfile.ZipFile(zip_name, 'w', zipfile.ZIP_DEFLATED) as zipf:
         for root, dirs, files in os.walk(folder_path):
-            # Skip .git folder
+            # Skip .git and __pycache__ folders
             if '.git' in dirs:
                 dirs.remove('.git')
+            if '__pycache__' in dirs:
+                dirs.remove('__pycache__')
 
             for file in files:
                 file_path = os.path.join(root, file)
