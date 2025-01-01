@@ -1,3 +1,2 @@
-[COLOR dodgerblue][B]Version 2.0.092[/B][/COLOR]
-- Fixed Trakt scrobbling when paused and seeking
-- More accurating storing/setting of playback percentage
+[COLOR dodgerblue][B]Version 2.0.093[/B][/COLOR]
+- Added option to clear blacklist in 'Database & Cache Maintenance'
