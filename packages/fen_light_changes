@@ -1,2 +1,3 @@
-[COLOR dodgerblue][B]Version 2.0.093[/B][/COLOR]
-- Added option to clear blacklist in 'Database & Cache Maintenance'
+[COLOR dodgerblue][B]Version 2.0.095[/B][/COLOR]
+- Added 'Prioritize the Last Resolved Show Release Name' option
+- Improved duplicate processing to ensure same provider used each time
