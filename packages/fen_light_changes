@@ -1,2 +1,2 @@
-[COLOR dodgerblue][B]Version 2.0.098[/B][/COLOR]
-- Added option to remove from priorities/blacklist to context menu if already in list
+[COLOR dodgerblue][B]Version 2.0.099[/B][/COLOR]
+- Optimised priorities and blacklists to only read json files when needed
