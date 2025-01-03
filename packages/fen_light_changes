@@ -1,3 +1,2 @@
-[COLOR dodgerblue][B]Version 2.0.096[/B][/COLOR]
-- Redid blacklist logic to use names instead of hashes, making it more generic for use with non torrent sources
-- Changed 'Prioritize the Last Resolved Show Release Name' to 'Prioritize the Last Resolved Release Name' to work with movies too
+[COLOR dodgerblue][B]Version 2.0.097[/B][/COLOR]
+- Added ability to add sources to priorities
