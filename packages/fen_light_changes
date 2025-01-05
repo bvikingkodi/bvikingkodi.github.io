@@ -1,2 +1,2 @@
-[COLOR dodgerblue][B]Version 2.0.1.1[/B][/COLOR]
-- Added settings to hide context menu/options options
+[COLOR dodgerblue][B]Version 2.0.1.2[/B][/COLOR]
+- Last resolved source and priorities/blacklist will now use hash to identify sources if available, otherwise name will be used as backup
