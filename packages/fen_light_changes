@@ -1,4 +1,4 @@
 [COLOR dodgerblue][B]Version 2.0.1.5[/B][/COLOR]
-- Redid prioritize last release to store result in database, so can be used until expires
-- Added in workaround for when real debrid fails to unrestrict direct_debrid_link
+- Reworked prioritize the last resolved source to store result in database, so it can be used until source expires
+- Added in workaround for when real debrid fails to unrestrict the given link
 - Visual changes to options menu
