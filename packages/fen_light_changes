@@ -1,2 +1,4 @@
-[COLOR dodgerblue][B]Version 2.0.1.2[/B][/COLOR]
-- Last resolved source and priorities/blacklist will now use hash to identify sources if available, otherwise name will be used as backup
+[COLOR dodgerblue][B]Version 2.0.1.5[/B][/COLOR]
+- Redid prioritize last release to store result in database, so can be used until expires
+- Added in workaround for when real debrid fails to unrestrict direct_debrid_link
+- Visual changes to options menu
