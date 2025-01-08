@@ -1,4 +1,3 @@
-[COLOR dodgerblue][B]Version 2.0.1.51[/B][/COLOR]
-- External cache will now delete from last resolved cache when external cache expires
-- Fixed issue with multi line narrow windows
-- Minor cleanup
+[COLOR dodgerblue][B]Version 2.0.1.52[/B][/COLOR]
+- Merged last_resolved.db into external.db
+- Minor changes
