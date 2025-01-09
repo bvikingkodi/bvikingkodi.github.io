@@ -33,6 +33,9 @@ def zip_addon_folder(addon_name, version_file_name):
                 dirs.remove('__pycache__')
 
             for file in files:
+                # Skip .gitignore files
+                if file == '.gitignore':
+                    continue
                 file_path = os.path.join(root, file)
                 arcname = os.path.join(addon_name, os.path.relpath(file_path, folder_path))
                 zipf.write(file_path, arcname)
