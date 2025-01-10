@@ -1,3 +1,2 @@
-[COLOR dodgerblue][B]Version 2.0.1.55[/B][/COLOR]
-- Expanded last resolved source to track seasons and episodes
-- Different attempt at Real Debrid Fix
+[COLOR dodgerblue][B]Version 2.0.1.56[/B][/COLOR]
+- Fixed issue preventing custom autoplay sort to top on working on season/show packs
