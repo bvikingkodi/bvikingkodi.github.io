@@ -1,2 +1,4 @@
-[COLOR dodgerblue][B]Version 2.0.1.62[/B][/COLOR]
-- While scraping will no longer allow you to attempt to play anything else
+[COLOR dodgerblue][B]Version 2.0.1.63[/B][/COLOR]
+- 'Single Random Play' will allow you to continue playing subsequent episodes when episode is finished
+- 'Random Continual Play' will now use next episode alert window method if enabled
+- Minor changes and fixes to background scrape
