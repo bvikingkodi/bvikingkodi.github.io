@@ -1,3 +1,2 @@
-[COLOR dodgerblue][B]Version 2.0.1.69[/B][/COLOR]
-- Fix for still watching not always showing
-- Another real debrid workaround attempt
+[COLOR dodgerblue][B]Version 2.0.1.71[/B][/COLOR]
+- Improved MediaFlow Proxy Support, now caches links locally and sets links to expire 1 week later
