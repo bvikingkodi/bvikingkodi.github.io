@@ -1,4 +1,4 @@
-[COLOR dodgerblue][B]Version 2.0.1.71[/B][/COLOR]
-- Improved MediaFlow Proxy Support, now caches links locally and sets links to expire 1 week later
-- Databases will now be cleaned on startup
-- Added url and txt to unsupported video extensions, should help ensure that when adding magnets to real debrid cloud there will be a playable link instead of .rar file
+[COLOR dodgerblue][B]Version 2.0.1.72[/B][/COLOR]
+- No longer caches mediaflow proxy links on the slim chance that link expires later when part way through playback/download
+- Another attempt at real debrid workaround
+- Fixed download file name when downloading through mediaflow proxy
