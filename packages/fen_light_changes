@@ -1,4 +1,4 @@
-[COLOR dodgerblue][B]Version 2.0.1.72[/B][/COLOR]
-- No longer caches mediaflow proxy links on the slim chance that link expires later when part way through playback/download
-- Another attempt at real debrid workaround
-- Fixed download file name when downloading through mediaflow proxy
+[COLOR dodgerblue][B]Version 2.0.1.73[/B][/COLOR]
+- Trakt token refreshes every 24 hours instead
+- Improve metadata update handling of shows
+- Other minor fixes
